@@ -1,0 +1,25 @@
+@reference "../../globals.css";
+
+.card {
+  @apply rounded-xl p-10 flex flex-col items-center gap-5;
+}
+
+.light {
+  @apply bg-gray-100 shadow-md;
+}
+
+.dark {
+  @apply bg-dark border-2 border-light;
+}
+
+.image {
+  @apply flex items-center justify-center size-[250px] rounded-full overflow-hidden;
+}
+
+.image img {
+  @apply size-[120px];
+}
+
+.label {
+  @apply text-3xl text-center;
+}

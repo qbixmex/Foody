@@ -1,0 +1,13 @@
+@reference "../../globals.css";
+
+.categories {
+  @apply w-full lg:max-w-screen-xl lg:mx-auto mb-[80px];
+}
+
+.heading {
+  @apply text-4xl md:text-5xl lg:text-6xl font-semibold lg:font-bold xl:font-black text-dark dark:text-light text-center mb-10;
+}
+
+.cards {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5;
+}
