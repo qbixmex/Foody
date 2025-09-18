@@ -1,0 +1,5 @@
+@reference "../../globals.css";
+
+.container {
+  @apply container mx-auto px-5 my-5 md:my-10;
+}

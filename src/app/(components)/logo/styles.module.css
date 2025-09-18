@@ -1,0 +1,20 @@
+@reference "../../globals.css";
+
+.logo {
+  @apply
+    flex items-center justify-center gap-3;
+}
+
+.iconContainer {
+  @apply
+    flex items-center justify-center
+    size-[50px] md:size-[70px] lg:size-[100px] bg-primary rounded-xl;
+}
+
+.logoLabel {
+  @apply text-lg md:text-xl lg:text-2xl font-semibold text-accent;
+}
+
+.logoIcon {
+  @apply size-[24px] md:size-[32px] lg:size-[48px] text-secondary;
+}

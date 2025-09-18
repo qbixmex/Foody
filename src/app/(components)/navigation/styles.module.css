@@ -1,0 +1,23 @@
+@reference "../../globals.css";
+
+.navigation {
+  @apply hidden md:flex items-center gap-4;
+}
+
+.navLink {
+  @apply relative font-bold font-heading text-accent;
+}
+
+.navLinkActive {
+  @apply relative font-bold text-primary;
+}
+
+.underline {
+  @apply
+    w-full h-[6px] border-0 bg-transparent
+    absolute -bottom-3 left-0 rounded transition-colors duration-300 ease-in-out;
+}
+
+.active {
+  @apply bg-primary hover:bg-primary!;
+}
