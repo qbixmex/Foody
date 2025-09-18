@@ -1,0 +1,38 @@
+@reference "../../globals.css";
+
+.hero {
+  @apply flex flex-col md:flex-row gap-10 mb-[80px];
+}
+
+.details {
+  @apply flex flex-col gap-10 md:w-1/2 order-2 md:order-1;
+}
+
+.heading {
+  @apply flex flex-col
+    text-3xl md:text-4xl lg:text-5xl text-accent font-semibold;
+}
+
+.headingHighlight {
+  @apply text-primary;
+}
+
+.description {
+  @apply tracking-wider font-medium;
+}
+
+.buttons {
+  @apply flex flex-col lg:flex-row gap-5 items-center justify-end;
+}
+
+.demo {
+  @apply flex items-center gap-2 text-xl font-medium;
+}
+
+.image {
+  @apply w-full flex justify-center items-center md:w-1/2 order-1 md:order-2;
+}
+
+.image img {
+  @apply w-full max-w-[445px] h-auto;
+}

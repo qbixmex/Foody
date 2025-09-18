@@ -1,7 +1,7 @@
 @reference "../../globals.css";
 
 .header {
-  @apply flex items-center justify-between gap-5;
+  @apply flex items-center justify-between gap-5 mb-[80px];
 }
 
 .navigationButtons {
