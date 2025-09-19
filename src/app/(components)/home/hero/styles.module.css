@@ -1,4 +1,4 @@
-@reference "../../globals.css";
+@reference "../../../globals.css";
 
 .hero {
   @apply flex flex-col md:flex-row gap-10 mb-[80px];

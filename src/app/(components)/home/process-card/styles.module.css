@@ -1,0 +1,28 @@
+@reference "../../../globals.css";
+
+.processCard {
+  @apply flex flex-col gap-5;
+}
+
+.figure {
+  @apply flex justify-center;
+}
+
+.figure img {
+  @apply w-full min-w-[100px] max-w-[512px] h-auto bg-secondary rounded-full;
+}
+
+.heading,
+.description {
+  @apply text-center;
+}
+
+.heading {
+  @apply text-4xl font-semibold;
+}
+
+.description {
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  @apply text-lg font-light leading-snug;
+}

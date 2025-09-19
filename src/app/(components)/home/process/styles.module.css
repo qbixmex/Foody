@@ -1,0 +1,13 @@
+@reference "../../../globals.css";
+
+.process {
+  @apply flex flex-col w-full lg:max-w-screen-lg xl:max-w-screen-xl mx-auto mb-20;
+}
+
+.heading {
+  @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-black mb-10 lg:mb-14;
+}
+
+.processCards {
+  @apply grid grid-cols-1 lg:grid-cols-3 gap-10 md:flex-row;
+}

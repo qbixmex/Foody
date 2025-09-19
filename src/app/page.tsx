@@ -1,16 +1,15 @@
 import { FC } from "react";
-import { Container } from "./(components)/container/container";
-import { Header } from "./(components)/header/Header.component";
-import { Hero } from "./(components)/hero/Hero.component";
-import { Categories } from "./(components)/categories/categories.component";
+import { Hero } from "./(components)/home/hero/Hero.component";
+import { Categories } from "./(components)/home/categories/categories.component";
+import { Process } from "./(components)/home/process/Process.component";
 
 const HomePage: FC = () => {
   return (
-    <Container>
-      <Header />
+    <>
       <Hero />
       <Categories />
-    </Container>
+      <Process />
+    </>
   );
 };
 

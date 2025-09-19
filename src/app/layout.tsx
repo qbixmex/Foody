@@ -4,6 +4,8 @@ import { ThemeProvider } from "@/lib/theme-provider";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import { fonts } from "./fonts";
+import { Container } from "./(components)/container/container";
+import { Header } from "./(components)/header/Header.component";
 
 export const metadata: Metadata = {
   title: "Foody Restaurant App",
@@ -22,7 +24,11 @@ const RootLayout: FC<Props> = ({ children }) => {
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <Container>
+            <Header />
+            {children}
+            {/* // TODO <Footer /> */}
+          </Container>
         </ThemeProvider>
       </body>
     </html>

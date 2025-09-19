@@ -1,4 +1,4 @@
-import { IconsType, NavigationButton } from "../navigation-button/NavigationButton.component";
+import NavigationButton, { type IconsType } from "../navigation-button/NavigationButton.component";
 import styles from "./styles.module.css";
 
 const navigationButtons: {

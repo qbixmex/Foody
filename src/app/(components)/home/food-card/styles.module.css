@@ -1,4 +1,4 @@
-@reference "../../globals.css";
+@reference "../../../globals.css";
 
 .card {
   @apply rounded-xl p-10 flex flex-col items-center gap-5;

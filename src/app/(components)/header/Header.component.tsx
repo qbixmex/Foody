@@ -1,6 +1,6 @@
-import Logo from "../logo/Logo.component";
-import TopNavigation from "../navigation/top-navigation";
-import NavigationButtons from "./NavigationButtons.component";
+import { Logo } from "../logo/Logo.component";
+import { TopNavigation } from "../navigation/top-navigation";
+import { NavigationButtons } from "./NavigationButtons.component";
 
 import styles from "./styles.module.css";
 

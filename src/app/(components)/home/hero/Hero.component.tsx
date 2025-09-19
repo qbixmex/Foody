@@ -1,10 +1,10 @@
 'use client';
 
-import { CTAButton } from "../cta-button/CTAButton.component";
-import { ArrowRight, Play } from 'lucide-react';
-import styles from "./styles.module.css";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { ArrowRight, Play } from 'lucide-react';
+import { CTAButton } from "../cta-button/CTAButton.component";
+import styles from "./styles.module.css";
 
 export const Hero = () => {
   const router = useRouter();
