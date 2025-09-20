@@ -13,7 +13,7 @@ import styles from './styles.module.css';
 
 export const Reviews: FC = () => {
   return (
-    <>
+    <div className={styles.reviewsSection}>
       <h2 className={styles.heading}>Reviews</h2>
 
       <section className={styles.reviews}>
@@ -30,7 +30,7 @@ export const Reviews: FC = () => {
           </CarouselContent>
         </Carousel>
       </section>
-    </>
+    </div>
   );
 };
 

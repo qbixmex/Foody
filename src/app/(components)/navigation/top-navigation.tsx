@@ -4,20 +4,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import styles from "./styles.module.css";
-
-const links = [
-  { url: "/menu", label: "Menu" },
-  { url: "/locations", label: "Locations" },
-  { url: "/about", label: "About" },
-  { url: "/blog", label: "Blog" },
-];
+import { homeLinks } from "@/data/navigation";
 
 export const TopNavigation = () => {
   const path = usePathname();
 
   return (
     <nav className={styles.navigation}>
-      {links.map(({ url, label }) => (
+      {homeLinks.map(({ url, label }) => (
         <div key={url}>
           <Link
             href={url}

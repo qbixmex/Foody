@@ -3,6 +3,7 @@ import { Hero } from "./(components)/home/hero/Hero.component";
 import { Categories } from "./(components)/home/categories/categories.component";
 import { Process } from "./(components)/home/process/Process.component";
 import { Reviews } from "./(components)/home/reviews/Reviews.component";
+import { Footer } from "./(components)/footer/Footer.component";
 
 const HomePage: FC = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage: FC = () => {
       <Categories />
       <Process />
       <Reviews />
+      <Footer />
     </>
   );
 };

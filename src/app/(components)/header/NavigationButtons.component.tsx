@@ -1,18 +1,6 @@
-import NavigationButton, { type IconsType } from "../navigation-button/NavigationButton.component";
+import { navigationButtons } from "@/data/navigation";
+import NavigationButton from "../navigation-button/NavigationButton.component";
 import styles from "./styles.module.css";
-
-const navigationButtons: {
-  type: IconsType;
-  url: string | undefined;
-  visible: boolean;
-}[] = [
-  { type: "search", url: "", visible: true },
-  { type: "cart", url: "cart", visible: true },
-  { type: "light", url: "", visible: false },
-  { type: "dark", url: "", visible: true },
-  { type: "signIn", url: "/signin", visible: true },
-  { type: "signOut", url: "/signout", visible: false },
-];
 
 export const NavigationButtons = () => {
   return (

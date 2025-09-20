@@ -1,5 +1,9 @@
 @reference "../../../globals.css";
 
+.reviewsSection {
+  @apply mb-20;
+}
+
 .heading {
   @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-black mb-10 lg:mb-14;
 }
