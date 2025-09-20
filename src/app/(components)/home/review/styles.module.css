@@ -1,0 +1,39 @@
+@reference "../../../globals.css";
+
+.review {
+  @apply flex flex-col items-center gap-5;
+}
+
+.figure {
+  @apply flex justify-center size-[320px] border-gray-500;
+}
+
+.image {
+  @apply w-full h-auto rounded-full;
+}
+
+.name-title {
+  @apply flex flex-col gap-1 text-center; 
+}
+
+.heading {
+  @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold; 
+}
+
+.title {
+  @apply text-gray-500 font-medium italic;
+}
+
+.rating {
+  @apply flex gap-2;
+}
+
+.starIcon {
+  @apply size-10 stroke-orange-500 fill-orange-500;
+}
+
+.comment {
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  @apply text-center font-medium;
+}

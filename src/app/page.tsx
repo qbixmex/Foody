@@ -2,6 +2,7 @@ import { FC } from "react";
 import { Hero } from "./(components)/home/hero/Hero.component";
 import { Categories } from "./(components)/home/categories/categories.component";
 import { Process } from "./(components)/home/process/Process.component";
+import { Reviews } from "./(components)/home/reviews/Reviews.component";
 
 const HomePage: FC = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage: FC = () => {
       <Hero />
       <Categories />
       <Process />
+      <Reviews />
     </>
   );
 };
