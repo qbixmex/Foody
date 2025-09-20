@@ -13,12 +13,3 @@ export const informationLinks: Link[] = [
   { url: "/videos", label: "Videos" },
   { url: "/Reservation", label: "Reservation" },
 ];
-
-export const navigationButtons: NavButton[] = [
-  { type: "search", url: "", visible: true },
-  { type: "cart", url: "cart", visible: true },
-  { type: "light", url: "", visible: false },
-  { type: "dark", url: "", visible: true },
-  { type: "signIn", url: "/signin", visible: true },
-  { type: "signOut", url: "/signout", visible: false },
-];

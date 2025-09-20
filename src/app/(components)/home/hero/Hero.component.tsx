@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ArrowRight, Play } from 'lucide-react';
 import { CTAButton } from "../cta-button/CTAButton.component";
 import styles from "./styles.module.css";
+import { cn } from "@/lib/utils";
 
 export const Hero = () => {
   const router = useRouter();
@@ -12,7 +13,7 @@ export const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.details}>
-        <h2 className={styles.heading}>
+        <h2 className={cn(styles.heading, 'text-accent dark:text-light')}>
           <span>Bon Appétit</span>
           <span className={styles.headingHighlight}>Explore Culinary</span>
           <span>Creations</span>

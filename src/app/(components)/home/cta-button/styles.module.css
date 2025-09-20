@@ -3,15 +3,7 @@
 .button {
   @apply
     flex gap-2 w-fit
-    bg-primary text-secondary uppercase font-semibold
+    bg-primary text-light uppercase font-semibold
     rounded-full px-8 py-4
     hover:bg-accent transition-colors duration-300 ease-in-out;
-}
-
-.light {
-  @apply bg-primary text-secondary;
-}
-
-.dark {
-  @apply bg-accent text-light hover:bg-primary;
 }

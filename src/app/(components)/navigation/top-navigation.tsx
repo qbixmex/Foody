@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import styles from "./styles.module.css";
 import { homeLinks } from "@/data/navigation";
+import styles from "./styles.module.css";
 
 export const TopNavigation = () => {
   const path = usePathname();
@@ -15,14 +15,14 @@ export const TopNavigation = () => {
         <div key={url}>
           <Link
             href={url}
-            className={cn(styles.navLink, "group", {
+            className={cn(styles.navLink, "group text-accent dark:text-light", {
               [styles.navLinkActive]: path === url
             })}
           >
             {label}
             <hr className={cn([
               styles.underline,
-              url === path ? styles.active : "group-hover:bg-accent!",
+              url === path ? styles.active : "group-hover:bg-accent! group-hover:dark:bg-light!",
               ])}
             />
           </Link>

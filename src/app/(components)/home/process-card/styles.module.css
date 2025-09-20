@@ -9,7 +9,7 @@
 }
 
 .figure img {
-  @apply w-full min-w-[100px] max-w-[512px] h-auto bg-secondary rounded-full;
+  @apply w-full min-w-[100px] max-w-[512px] h-auto rounded-full;
 }
 
 .heading,

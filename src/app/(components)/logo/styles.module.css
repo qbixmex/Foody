@@ -16,5 +16,5 @@
 }
 
 .logoIcon {
-  @apply size-[24px] md:size-[32px] lg:size-[48px] text-secondary;
+  @apply size-[24px] md:size-[32px] lg:size-[48px];
 }

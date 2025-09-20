@@ -1,23 +1,11 @@
 @reference "../../../globals.css";
 
 .card {
-  @apply rounded-xl p-10 flex flex-col items-center gap-5;
+  @apply w-[200px] lg:w-[300px] rounded-xl p-10 flex flex-col items-center gap-5;
 }
 
-.light {
-  @apply bg-gray-100 shadow-md;
-}
-
-.dark {
-  @apply bg-dark border-2 border-light;
-}
-
-.image {
-  @apply flex items-center justify-center size-[100px] md:size-[150px] lg:size-[250px] rounded-full overflow-hidden;
-}
-
-.image img {
-  @apply w-full max-w-[50px] md:max-w-[75] lg:max-w-[125px] h-auto;
+.figure > img {
+  @apply w-full min-w-[50px] max-w-[75] lg:max-w-[125px] h-auto;
 }
 
 .label {

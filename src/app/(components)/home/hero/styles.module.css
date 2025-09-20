@@ -10,7 +10,7 @@
 
 .heading {
   @apply flex flex-col
-    text-3xl md:text-4xl lg:text-5xl text-accent font-semibold;
+    text-3xl md:text-4xl lg:text-5xl font-semibold;
 }
 
 .headingHighlight {

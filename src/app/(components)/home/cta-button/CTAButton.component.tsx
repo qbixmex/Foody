@@ -16,7 +16,6 @@ type Props = Readonly<{
 export const CTAButton: FC<Props> = (props) => {
   const {
     children,
-    dark = false,
     iconPosition,
     icon,
     alone = false,
@@ -26,7 +25,6 @@ export const CTAButton: FC<Props> = (props) => {
   return (
     <button
       className={cn(styles.button, {
-        [styles.dark]: dark === true,
         "px-4!": alone === true && !children,
       })}
       onClick={onClick}

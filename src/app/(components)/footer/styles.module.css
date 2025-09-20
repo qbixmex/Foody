@@ -1,7 +1,7 @@
 @reference "../../globals.css";
 
 .footer {
-  @apply border-t-2 border-gray-300 pt-20;
+  @apply border-t-2 pt-20;
 }
 
 .data {
@@ -10,10 +10,6 @@
 
 .logoSection {
   @apply flex flex-col items-start gap-5;
-}
-
-.footerDescription {
-  @apply text-accent/80;
 }
 
 .menuSection {
@@ -25,11 +21,15 @@
 }
 
 .menuItem {
-  @apply text-accent/50 font-semibold;
+  @apply font-semibold;
+}
+
+.menuItem a {
+  @apply hover:text-primary transition-colors duration-300 ease-in-out;
 }
 
 .menuHeading {
-  @apply font-bold text-accent text-xl mb-2;
+  @apply font-bold text-xl mb-2;
 }
 
 .addressSection {
@@ -41,7 +41,7 @@
 }
 
 .addressDetails {
-  @apply text-accent/80;
+  @apply flex flex-col gap-2 italic;
 }
 
 .socialSection {
@@ -59,7 +59,7 @@
 }
 
 .copySection {
-  @apply italic text-accent/50 font-semibold text-sm;
+  @apply italic font-semibold text-sm;
 }
 
 .copySection > p {

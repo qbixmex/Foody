@@ -2,11 +2,7 @@
 
 .iconWrapper {
   @apply flex items-center justify-center cursor-pointer
-    size-[30px] md:size-[50px] lg:size-[60px]
+    size-[50px] lg:size-[60px]
     rounded-full
-    bg-dark hover:bg-gray-600 transition-colors duration-300 ease-in-out;
-}
-
-.btn {
-  @apply block text-light dark:text-dark;
+    hover:bg-gray-600 transition-colors duration-300 ease-in-out;
 }

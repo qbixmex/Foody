@@ -5,7 +5,7 @@
 }
 
 .navLink {
-  @apply relative font-bold font-heading text-accent;
+  @apply relative font-bold font-heading;
 }
 
 .navLinkActive {
