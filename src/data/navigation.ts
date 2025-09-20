@@ -1,4 +1,4 @@
-import { Link, NavButton } from "@/interfaces/navigation";
+import { Link } from "@/interfaces/navigation";
 
 export const homeLinks: Link[] = [
   { url: "/menu", label: "Menu" },

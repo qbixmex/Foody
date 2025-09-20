@@ -1,4 +1,4 @@
-interface Link {
+export interface Link {
   url: string;
   label: string;
 }
