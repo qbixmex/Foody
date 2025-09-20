@@ -13,11 +13,11 @@
 }
 
 .image {
-  @apply flex items-center justify-center size-[250px] rounded-full overflow-hidden;
+  @apply flex items-center justify-center size-[100px] md:size-[150px] lg:size-[250px] rounded-full overflow-hidden;
 }
 
 .image img {
-  @apply size-[120px];
+  @apply w-full max-w-[50px] md:max-w-[75] lg:max-w-[125px] h-auto;
 }
 
 .label {
