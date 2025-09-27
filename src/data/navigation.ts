@@ -11,5 +11,5 @@ export const informationLinks: Link[] = [
   { url: "/contact", label: "Contact" },
   { url: "/privacy-policy", label: "Privacy Policy" },
   { url: "/videos", label: "Videos" },
-  { url: "/Reservation", label: "Reservation" },
+  { url: "/reservation", label: "Reservation" },
 ];

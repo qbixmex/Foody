@@ -12,7 +12,6 @@ const HomePage: FC = () => {
       <Categories />
       <Process />
       <Reviews />
-      <Footer />
     </>
   );
 };

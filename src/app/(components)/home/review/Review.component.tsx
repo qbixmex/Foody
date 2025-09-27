@@ -17,8 +17,8 @@ export const Review: FC<Props> = ({ review }) => {
         <Image
           src={imageUrl}
           alt={`${name} reviewer`}
-          width={250}
-          height={250}
+          width={200}
+          height={200}
           className={styles.image}
         />
       </figure>

@@ -49,8 +49,9 @@
 }
 
 .socialLink {
-  @apply size-[50px] md:size-[80px] lg:size-[100px] text-light bg-accent rounded-full
+  @apply size-[50px] md:size-[70px] lg:size-[80px] text-light bg-accent rounded-full
     flex items-center justify-center
+    border-light border-2
     hover:bg-gray-600 transition-colors duration-300 ease-in-out;
 }
 

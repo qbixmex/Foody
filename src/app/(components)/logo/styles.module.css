@@ -8,6 +8,7 @@
 .iconContainer {
   @apply
     flex items-center justify-center
+    border-light border-2
     size-[50px] md:size-[70px] lg:size-[100px] bg-primary rounded-xl;
 }
 

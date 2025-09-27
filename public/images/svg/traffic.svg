@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220" aria-label="Tráfico animado en SVG">
+  <style>
+    .label { font: 12px/1 sans-serif; fill: #fff; }
+  </style>
+
+  <!-- Fondo -->
+  <rect width="900" height="220" fill="#87ceeb" />
+  <rect x="0" y="150" width="900" height="70" fill="#2e8b57" />
+
+  <!-- Árbol -->
+  <g transform="translate(40,110)">
+    <rect x="0" y="20" width="12" height="30" fill="#6b4423" />
+    <circle cx="6" cy="6" r="20" fill="#196f3d" />
+  </g>
+
+  <!-- Carretera -->
+  <rect x="0" y="120" width="900" height="60" fill="#333" />
+  <g stroke="#ffd" stroke-width="6" stroke-linecap="butt">
+    <line x1="30" y1="150" x2="110" y2="150" />
+    <line x1="150" y1="150" x2="230" y2="150" />
+    <line x1="270" y1="150" x2="350" y2="150" />
+    <line x1="390" y1="150" x2="470" y2="150" />
+    <line x1="510" y1="150" x2="590" y2="150" />
+    <line x1="630" y1="150" x2="710" y2="150" />
+    <line x1="750" y1="150" x2="830" y2="150" />
+  </g>
+
+  <!-- Semáforo -->
+  <g transform="translate(820,80)">
+    <rect x="-24" y="-10" width="48" height="100" rx="6" fill="#222" stroke="#000" />
+    <circle cx="0" cy="10" r="9" fill="#4b4b4b">
+      <animate attributeName="fill" values="#4b4b4b;#ff3b3b;#4b4b4b" dur="6s" begin="0s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="40" r="9" fill="#4b4b4b">
+      <animate attributeName="fill" values="#4b4b4b;#ffd24d;#4b4b4b" dur="6s" begin="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="70" r="9" fill="#4b4b4b">
+      <animate attributeName="fill" values="#4b4b4b;#5be15b;#4b4b4b" dur="6s" begin="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Auto 1 (rojo, izquierda -> derecha) -->
+  <g>
+    <rect x="0" y="-20" width="70" height="28" rx="6" fill="#d64545" />
+    <rect x="10" y="-16" width="28" height="14" rx="2" fill="#fff" fill-opacity="0.25" />
+    <circle cx="18" cy="12" r="8" fill="#111" />
+    <circle cx="52" cy="12" r="8" fill="#111" />
+    <!-- CORRECCIÓN: valores con espacios, no comas -->
+    <animateTransform attributeName="transform" type="translate" values="-220 130; 980 130" dur="7s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Auto 2 (azul, derecha -> izquierda) -->
+  <g>
+    <rect x="0" y="-18" width="60" height="22" rx="5" fill="#3b82f6" />
+    <rect x="8" y="-14" width="24" height="12" rx="2" fill="#fff" fill-opacity="0.25" />
+    <circle cx="14" cy="10" r="7" fill="#111" />
+    <circle cx="46" cy="10" r="7" fill="#111" />
+    <animateTransform attributeName="transform" type="translate" values="980 160; -220 160" dur="5.2s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Auto 3 (amarillo, lento) -->
+  <g>
+    <rect x="0" y="-18" width="80" height="24" rx="6" fill="#ffd54f" />
+    <rect x="12" y="-14" width="36" height="12" rx="2" fill="#fff" fill-opacity="0.25" />
+    <circle cx="20" cy="12" r="8" fill="#111" />
+    <circle cx="60" cy="12" r="8" fill="#111" />
+    <animateTransform attributeName="transform" type="translate" values="-380 140; 980 140" dur="10s" repeatCount="indefinite" />
+  </g>
+</svg>

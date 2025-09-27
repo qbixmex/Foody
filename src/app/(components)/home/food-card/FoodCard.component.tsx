@@ -11,7 +11,7 @@ type Props = Readonly<{
 
 export const FoodCard: FC<Props> = ({ image, label }) => {
   return (
-    <div className={cn(styles.card, 'border border-gray-400/30 dark:border-light/20')}>
+    <div className={cn(styles.card, 'border-2 border-gray-400/30 dark:border-light')}>
       <figure className={styles.figure}>
         {image}
       </figure>

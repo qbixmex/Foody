@@ -18,7 +18,7 @@ export const ProcessCard: FC<Props> = ({ heading, imageUrl, description }) => {
           alt={heading}
           width={512}
           height={512}
-          className="bg-gray-300/50 dark:bg-gray-700/50"
+          className="bg-gray-300/50 dark:bg-gray-700/50 border-2 border-light"
         />
       </figure>
 

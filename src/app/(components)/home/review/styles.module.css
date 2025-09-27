@@ -5,11 +5,11 @@
 }
 
 .figure {
-  @apply flex justify-center size-[320px] border-gray-500;
+  @apply flex justify-center size-[200px] border-gray-500;
 }
 
 .image {
-  @apply w-full h-auto rounded-full;
+  @apply w-full h-auto rounded-full border-2 border-light;
 }
 
 .name-title {

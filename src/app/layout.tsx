@@ -2,10 +2,11 @@ import { FC } from "react";
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/lib/theme-provider";
 import { cn } from "@/lib/utils";
-import "./globals.css";
 import { fonts } from "./fonts";
 import { Container } from "./(components)/container/container";
 import { Header } from "./(components)/header/Header.component";
+import { Footer } from "./(components)/footer/Footer.component";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Foody Restaurant App",
@@ -27,7 +28,7 @@ const RootLayout: FC<Props> = ({ children }) => {
           <Container>
             <Header />
             {children}
-            {/* // TODO <Footer /> */}
+            <Footer />
           </Container>
         </ThemeProvider>
       </body>
